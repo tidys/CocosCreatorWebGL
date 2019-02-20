@@ -2,12 +2,12 @@
  * 碎片特效主要原理：
  *     将一个整图分割成n个碎图，利用cc.SpriteBatchNode对这些碎图进行渲染。
  */
-var Cfrag = _ccsg.Sprite.extend({
-    ctor : function() {
-        this._super();
-        this.m_randomNumber = -1;
-    }
-});
+// var Cfrag = _ccsg.Sprite.extend({
+//     ctor : function() {
+//         this._super();
+//         this.m_randomNumber = -1;
+//     }
+// });
 
 var CShatterAction = cc.ActionInterval.extend({
     initMembers : function() {

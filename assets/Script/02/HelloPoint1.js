@@ -24,6 +24,9 @@ cc.Class({
     },
 
     onLoad : function() {
+        debugger
+        let sprite =this.node.getComponent(cc.Sprite);
+        sprite;
         var wnode = new _ccsg.Node();
         this.node._sgNode.addChild(wnode);
         wnode._renderCmd._needDraw = true;
